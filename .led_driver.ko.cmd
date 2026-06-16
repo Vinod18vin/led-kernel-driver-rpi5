@@ -1,0 +1,1 @@
+savedcmd_/home/aiunika-rasp/led_driver/led_driver.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/aiunika-rasp/led_driver/led_driver.ko /home/aiunika-rasp/led_driver/led_driver.o /home/aiunika-rasp/led_driver/led_driver.mod.o /home/aiunika-rasp/led_driver/.module-common.o
