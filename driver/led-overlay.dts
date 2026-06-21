@@ -1,0 +1,17 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2712";
+
+    fragment@0 {
+        target-path = "/";
+        __overlay__ {
+            led_device: led-device {
+                compatible = "vinod,led-driver";
+                led-gpios = <&gpio 17 0>;
+                status = "okay";
+            };
+        };
+    };
+};
